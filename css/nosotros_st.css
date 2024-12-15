@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fefcf6;
+    color: #4b3d33;
+}
+
+
+header {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: rgb(143, 102, 32);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+
+h2 {
+    font-size: 2rem;
+    color: #8b0000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .row .col-md-6 h2,
+.text-center h2 {
+    color: rgb(143, 102, 32);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.card {
+    border: none;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #8b0000;
+    font-size: 1.5rem;
+}
+
+.card p {
+    color: #4b3d33;
+}
+
+
+img.rounded-circle {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #4b3d33;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #8b0000;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+footer a:hover {
+    background-color: #8b0000;
+}

@@ -1,0 +1,156 @@
+.carousel-inner h5 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+.carousel-inner p {
+    font-family: 'Courier New', Courier, monospace;
+}
+.container h1
+{
+    font-size: 4rem;
+    color: rgb(143, 102, 32);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.container2 h1
+{
+    background-color: antiquewhite;
+    font-size: 4rem;
+    color: rgb(143, 102, 32);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fefcf6;
+    color: #4b3d33;
+}
+
+
+.video-section h2 {
+    font-size: 1.8rem;
+    color: #8b0000;
+    margin-bottom: 20px;
+}
+
+.video-container video {
+    max-width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.destinos-section h2 {
+    font-size: 1.8rem;
+    color: #8b0000;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.carta-section h2 {
+    font-size: 2rem;
+    color: #8b0000;
+    margin-bottom: 30px;
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #8b0000;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table td {
+    color: #4b3d33;
+    font-weight: bold;
+}
+
+
+.contacto-section h2 {
+    font-size: 1.8rem;
+    color: #8b0000;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #8b0000;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4b3d33;
+}
+
+footer {
+    background-color: #4b3d33;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    border-top: 3px solid #8b0000;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer a:hover {
+    background-color: #8b0000;
+    color: #fff;
+    transition: background-color 0.3s;
+}
